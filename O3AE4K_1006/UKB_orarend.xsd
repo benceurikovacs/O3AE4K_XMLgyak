@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/UKB_orarend" xmlns:tns="http://www.example.org/UKB_orarend" elementFormDefault="qualified">
+
+	<element name="orarend">
+		<complexType>
+			<sequence>
+				<element name="ora" maxOccurs="unbounded">
+					<complexType>
+						<sequence>
+							<element name="targy" type="string"/>
+							<element name="idopont" maxOccurs="unbounded" />
+									<sequence>
+										<element name="nap" type="string"/>
+										<element name="tol" type="int"/>
+										<element name="ig" type="int"/>
+									</sequence>
+							<element name="helyszin" type="string"/>
+							<element name="oktato" type="string" />
+							<element name="szak" type="string" />
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+
+
+</schema>

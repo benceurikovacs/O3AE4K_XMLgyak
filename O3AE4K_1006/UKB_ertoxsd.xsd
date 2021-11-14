@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/UKB_ertoxsd" xmlns:tns="http://www.example.org/UKB_ertoxsd" elementFormDefault="qualified">
+	<element name="modell">
+		<complexType>
+			<sequence>
+				<element name="A" maxOccurs="unbounded">
+					<complexType mixed="true">
+						<sequence>
+							<element name="b" type="string" />
+							<element name="c" type="string" />
+						</sequence>
+						<attribute name="a1" type="int"/>
+					</complexType>
+				</element>
+				
+				<element name="B" maxOccurs="unbounded">
+					<complexType mixed="true">
+						<sequence>
+							<element name="b" type="string" />
+						</sequence>
+						<attribute name="a1" type="int"/>
+					</complexType>
+				</element>
+				
+				<element name="C" maxOccurs="unbounded">
+					<complexType mixed="true">
+						<sequence>
+							<element name="b" type="string" />
+						</sequence>
+						<attribute name="a1" type="int"/>
+					</complexType>
+				</element>
+				
+				<element name="AC" maxOccurs="unbounded">
+					<complexType mixed="true">
+						<sequence>
+							<element name="ac1" type="string" />
+							<element name="ac2" type="string" />
+						</sequence>
+					</complexType>
+				</element>
+				
+				
+				
+			</sequence>
+		</complexType>
+	</element>
+
+
+
+
+</schema>

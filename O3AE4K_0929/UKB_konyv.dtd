@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE books
+[
+<!ELEMENT books (konyv+)>
+<!ELEMENT konyv (cim, kiadas_ev, kiado, szerzo+)>
+<!ATTLIST konyv ID #REQUIRED>
+<!ELEMENT cim (#PCDATA)>
+<!ELEMENT kiadas_ev (#PCDATA)>
+<!ELEMENT kiado (#PCDATA)>
+<!ELEMENT szerzo (#PCDATA)>
+
+]>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encording="utf-8"?>
+
+
+<books>
+
+	<konyv id="1">
+	
+		<cim>Bevezetés az XML-be</cim>
+		<kiadas_ev>2008<kiadas_ev>
+		<kiado>Konyv Kiado</kiado>
+		<szerzo>
+			Kis Károly
+		</szerzo>
+		<szerzo>
+			Nagy Antal
+		</szerzo>
+	
+	</konyv>
+	
+	<konyv id="2">
+	
+		<cim>Objektum orientalt programozas</cim>
+		<kiadas_ev>2014<kiadas_ev>
+		<kiado>Konyv Kiado</kiado>
+		<szerzo>
+			Molnar Attila
+		</szerzo>
+	
+	</konyv>
+	
+	<konyv id="3">
+	
+		<cim>Emelt szintű informatika érettségi - Programozás C++ és C# nyelven</cim>
+		<kiadas_ev>2019<kiadas_ev>
+		<kiado>METROPOLIS MEDIA GROUP</kiado>
+		<szerzo>
+			Magyary Gyula
+		</szerzo>
+	
+	</konyv>
+	
+	
+
+
+</books>

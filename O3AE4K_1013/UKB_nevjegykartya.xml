@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartyak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="UKB_nevjegykartya.xsd">
+	
+	<nevjegykartya id="01">
+	
+		<nev>Uri-Kovács Bence</nev>
+		
+		<ceg>
+			<nev>Miskolci Egyetem</nev>
+			<cim>
+				<iranyitoszam>3515</iranyitoszam>
+				<varos>Miskolc</varos>
+				<utca>Egyetem út </utca>
+				<hazszam>1</hazszam>
+			</cim>
+		<telefonszam>(06 46) 565 111</telefonszam>
+		<weblap>https://www.uni-miskolc.hu</weblap>
+		
+		</ceg>
+		
+		<beosztas>Hallagtó</beosztas>
+		
+		<telefonszam>06303573577</telefonszam>
+		
+		<email>benceurikovacs@gmail.com</email>
+		
+	</nevjegykartya>
+	
+	<nevjegykartya id="02">
+	
+		<nev>Olasz Péter</nev>
+		
+		<ceg>
+			<nev>Miskolci Egyetem</nev>
+			<cim>
+				<iranyitoszam>3515</iranyitoszam>
+				<varos>Miskolc</varos>
+				<utca>Egyetem út </utca>
+				<hazszam>1</hazszam>
+			</cim>
+		<telefonszam>(06 46) 565 111</telefonszam>
+		<weblap>https://www.uni-miskolc.hu</weblap>
+		
+		</ceg>
+		
+		<beosztas>Hallagtó</beosztas>
+		
+		<telefonszam>06301234567</telefonszam>
+		
+		<email>olaszpetya@gmail.com</email>
+		
+	</nevjegykartya>
+
+
+
+</nevjegykartyak>

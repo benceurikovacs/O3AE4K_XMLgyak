@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="UKB_konyv1.xsd">
+	<konyv>
+		<cim>Langolierek-Az ido fogsagaban</cim>
+		<szerzo>Stephen King</szerzo>
+		<szereplo id="01">
+			<nev>Patricia Wettig</nev>
+			<barat>Ken Olin</barat>
+			<szuletett>1951.12.04.</szuletett>
+			<jellemzes>kedves</jellemzes>
+		</szereplo>
+		
+		<szereplo id="02">
+			<nev>Mark Lindsay Chapman</nev>
+			<szuletett>1954.09.08.</szuletett>
+			<jellemzes>jofej</jellemzes>
+		</szereplo>
+
+	</konyv>
+</konyvek>

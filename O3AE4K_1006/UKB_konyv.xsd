@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/UKB_konyv2" xmlns:tns="http://www.example.org/UKB_konyv2" elementFormDefault="qualified">
+	<element name="books">
+		<complexType>
+			<sequence>
+			<element name="konyv" maxOccurs="unbounded">
+				<complexType>
+					<sequence>
+						<element name="cim" type="string"/>
+						<element name="kiadas_ev" type="unsignedShort"/>
+						<element name="kiado" type="string"/>
+						<element name="szerzo" type="string" maxOccurs="unbounded"/>
+						<element name="abstact" type="string" />
+					</sequence>
+					<attribute name="id" type="string" use="required" />
+				</complexType>
+			</element>
+			</sequence>
+		</complexType>
+		</element>
+
+</schema>

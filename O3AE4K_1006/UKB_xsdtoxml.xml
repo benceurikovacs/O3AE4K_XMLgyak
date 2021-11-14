@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modell>
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="UKB_ertoxsd.xsd">
+  <A a1="01">
+    <b>string</b>
+    <c>string</c>
+  </A>
+  <B a1="02">
+    <b>string</b>
+  </B>
+  <C a1="03">
+    <b>string</b>
+  </C>
+  <AC>
+    <ac1>string</ac1>
+    <ac2>string</ac2>
+  </AC>
+</modell>

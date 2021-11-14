@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class>
+	<student id="01">
+		<keresztnev>Bence</keresztnev>
+		<vezeteknev>Uri-Kovács</vezeteknev>
+		<becenev>Bebce</becenev>
+		<kor>22</kor>
+	</student>
+	
+	<student id="02">
+		<keresztnev>Gabriella</keresztnev>
+		<vezeteknev>Katyina</vezeteknev>
+		<becenev>Gabi</becenev>
+		<kor>23</kor>
+	</student>
+	
+	<student id="03">
+		<keresztnev>Szibilla</keresztnev>
+		<vezeteknev>Altorjay</vezeteknev>
+		<becenev>Szibi</becenev>
+		<kor>25</kor>
+	</student>
+	
+</class>

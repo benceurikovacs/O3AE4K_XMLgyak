@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE udvar
+[
+<!ELEMENT udvar (gazda,kutya,kakas,tyuk+,diszno)>
+<!ELEMENT gazda (#PCDATA)>
+<!ELEMENT kutya (#PCDATA)>
+<!ELEMENT kakas (#PCDATA)>
+<!ATTLIST kakas ID #REQUIRED>
+<!ELEMENT tyuk (#PCDATA)>
+<!ATTLIST tyuk ID #REQUIRED>
+<!ELEMENT diszno (#PCDATA)>
+
+]>

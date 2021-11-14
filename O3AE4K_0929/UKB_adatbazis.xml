@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE adatbazis SYSTEM "SZZSV_adatbazis.dtd">  -->
+<!DOCTYPE adatbazis[
+<!ELEMENT adatbazis (dolgozo+)>
+<!ATTLIST dolgozo id ID #REQUIRED>
+<!ATTLIST dolgozo nev CDATA #REQUIRED>
+<!ATTLIST dolgozo fizetes CDATA #REQUIRED>
+]>
+<adatbazis>
+	<dolgozo id="d01" nev="Adam" fizetes="3000ft"/>
+	<dolgozo id="d02" nev="Bence" fizetes="3000ft"/>
+</adatbazis>

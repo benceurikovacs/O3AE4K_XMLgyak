@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE adatbazis SYSTEM "SZZSV_ertodtd.dtd">  -->
+<!DOCTYPE ertodtd
+[
+<!ELEMENT ertodtd (A*, B*, C*, A_B*)>
+<!ELEMENT A (Ab*, Ac)>
+<!ATTLIST A Aa ID #REQUIRED>
+<!ELEMENT Ab (Abx, Aby)>
+<!ELEMENT Abx (#PCDATA)>
+<!ELEMENT Aby (#PCDATA)>
+<!ELEMENT Ac (Acd, Ace)>
+<!ELEMENT Abd (#PCDATA)>
+<!ELEMENT Abe (#PCDATA)>
+<!ELEMENT B (Bb)>
+<!ATTLIST B ba ID #REQUIRED>
+<!ATTLIST B Bc IDREF #IMPLIED>
+<!ELEMENT Bb (Bbx, Bby)>
+<!ELEMENT Bbx (#PCDATA)>
+<!ELEMENT Bby (#PCDATA)>
+<!ELEMENT C (Cb)>
+<!ATTLIST C Ca ID #REQUIRED>
+<!ELEMENT Cb (#PCDATA)>
+<!ELEMENT A_B (A_Bc)>
+<!ATTLIST A_B A_B_a IDREF #IMPLIED>
+<!ATTLIST A_B A_B_b IDREF #IMPLIED>
+<!ELEMENT A_Bc (#PCDATA)
+]>
+
+<modell>
+	<A>
+		<Aa> id="01" </Aa>
+			<Ab>
+				<Abx> " " </Abx>
+				<Aby> " " </Aby>
+			</Ab>
+			<Ac>
+				<Abd> " " </Abd>
+				<Abe> " " </Abe>
+			</Ac>
+	</A>
+	<B> 
+		<Ba>id="02" </Ba>
+			<Bb>
+				<Bbx> " " </Bbx>
+				<Bby> " " </Bby>
+			</Bb>
+	</B>
+	<C>
+		<Ca> id="03" </Ca>
+		<Cb> " " </Cb>
+		<A_B>
+			<A_Bc> " " </A_bc>
+		<A_B>
+	</C>
+	
+	
+	
+
+
+</modell>

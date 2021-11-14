@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE macskak SYSTEM "macskakO3AE4K.dtd"> -->
+<macskak>
+	<macska id="01">
+		<nev>Cili</nev>
+		<kor>3</kor>
+		<fajta>hazimacska</fajta>
+	</macska>
+	
+	<macska id="02">
+		<nev>Lili</nev>
+		<kor>2</kor>
+		<fajta>hazimacska</fajta>
+	</macska>
+	
+	<macska id="03">
+		<nev>Mimi</nev>
+		<kor>1</kor>
+		<fajta>hazimacska</fajta>
+	</macska>
+	
+</macskak>

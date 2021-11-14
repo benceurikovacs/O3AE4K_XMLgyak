@@ -1,0 +1,26 @@
+<?xml version="1.0" encording="utf-8"?>
+
+
+<konferencia>
+	<cim nev="Konferencia"/>
+	</cim>
+	<hallgatok nev="Hallgatok"/>
+		<hallgato nev="Zsofia" lakcim="Miskolc"/>
+	</hallgatok>
+	<helyszin nev="Miskolc" />
+	</helyszin>
+
+	<eloado>
+		<nev="Mate"/>
+		<adoszam="123456789"/>
+		<lakcim="Miskolc">
+	</eloado>
+
+	<datum datum="2021.09.21."/>
+	</datum>
+</konferencia>
+
+
+
+
+
