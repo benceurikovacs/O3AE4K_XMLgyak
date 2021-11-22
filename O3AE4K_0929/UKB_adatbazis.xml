@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<!DOCTYPE adatbazis SYSTEM "SZZSV_adatbazis.dtd">  -->
+<!--<!DOCTYPE adatbazis SYSTEM "UKB_adatbazis.dtd">  -->
 <!DOCTYPE adatbazis[
 <!ELEMENT adatbazis (dolgozo+)>
 <!ATTLIST dolgozo id ID #REQUIRED>
