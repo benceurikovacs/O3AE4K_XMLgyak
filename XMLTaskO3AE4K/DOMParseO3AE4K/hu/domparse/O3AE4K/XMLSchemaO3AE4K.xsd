@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="model">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Futarok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Futar" type="Futar_type" minOccurs="0" maxOccurs="unbounded"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Italkereskedesek">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Italkereskedes" type="Italkereskedes_type" minOccurs="0" maxOccurs="unbounded"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Rendelesek">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Rendeles" type="Rendeles_type" minOccurs="0" maxOccurs="unbounded"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Vevok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Vevo" type="Vevo_type" minOccurs="0" maxOccurs="unbounded"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                
+                <xs:element name="Futar_Italkereskedes_kapcsolok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Futar_Italkereskedes" type="Futar_Italkereskedes_kapcsolo" minOccurs="0" maxOccurs="unbounded"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Italkereskedes_Rendeles_kapcsolok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Italkereskedes_Rendeles" type="Italkereskedes_Rendeles_kapcsolo" minOccurs="0" maxOccurs="unbounded"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Rendeles_Vevo_kapcsolok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Rendeles_Vevo" type="Rendeles_Vevo_kapcsolo" minOccurs="0" maxOccurs="unbounded"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+    <xs:complexType name="Futar_type">
+        <xs:sequence>
+            <xs:element name="futarnev"></xs:element>
+            <xs:element name="telefonszam"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="fkod" type="xs:integer" use="required"></xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="Italkereskedes_type">
+        <xs:sequence>
+            <xs:element name="nyitvatartas"></xs:element>
+            <xs:element name="elerhetoseg" type="elerhetoseg_type"></xs:element>
+            <xs:element name="italkernev"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="ikod" type="xs:integer" use="required"></xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="Rendeles_type">
+        <xs:sequence>
+            <xs:element name="tetelek"></xs:element>
+            <xs:element name="teljesar"></xs:element>
+            <xs:element name="datum"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="rkod" type="xs:integer" use="required"></xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="Vevo_type">
+        <xs:sequence>
+            <xs:element name="telefonszam"></xs:element>
+            <xs:element name="cim" type="cim_type"></xs:element>
+            <xs:element name="nev"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="vkod" type="xs:integer" use="required"></xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="Bankkartya_type">
+        <xs:sequence>
+            <xs:element name="lejaratidatum"></xs:element>
+            <xs:element name="bank"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="bkod" type="xs:integer" use="required"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="Futar_Italkereskedes_kapcsolo">
+        <xs:attribute name="Futarref" type="xs:integer" use="required"></xs:attribute>
+        <xs:attribute name="Italkereskedesref" type="xs:integer" use="required"></xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="Italkereskedes_Rendeles_kapcsolo">
+        <xs:attribute name="Italkereskedesref" type="xs:integer" use="required"></xs:attribute>
+        <xs:attribute name="Rendelesref" type="xs:integer" use="required"></xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="Rendeles_Vevo_kapcsolo">
+        <xs:attribute name="Rendelesref" type="xs:integer" use="required"></xs:attribute>
+        <xs:attribute name="Vevoref" type="xs:integer" use="required"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="elerhetoseg_type">
+        <xs:sequence>
+            <xs:element name="telefonszam"></xs:element>
+            <xs:element name="webshopcime"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="cim_type">
+        <xs:sequence>
+            <xs:element name="varos"></xs:element>
+            <xs:element name="uhszam"></xs:element>
+            <xs:element name="iranyitoszam"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
