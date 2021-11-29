@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLSchemaO3AE4K.xsd">
+<Futarok>
+    <Futar fkod="1">
+        <futarnev>Kiss Tamas</futarnev>
+        <telefonszam>06307842588</telefonszam>
+    </Futar>
+    <Futar fkod="2">
+        <futarnev>Nagy Gabor</futarnev>
+        <telefonszam>06309761433</telefonszam>
+    </Futar>
+    <Futar fkod="3">
+        <futarnev>Szabo Attila</futarnev>
+        <telefonszam>06309752464</telefonszam>
+    </Futar>
+</Futarok>
+<Italkereskedesek>
+    <Italkereskedes ikod="1">
+        <nyitvatartas>08:00-16:00</nyitvatartas>
+        <elerhetoseg>
+            <telefonszam>06303654891</telefonszam>
+            <webshopcime>www.fovarosiitalkereskedes.hu</webshopcime>
+        </elerhetoseg>
+        <italkernev>Fovarosi Italkereskedes</italkernev>
+    </Italkereskedes>
+    <Italkereskedes ikod="2">
+        <nyitvatartas>08:00-16:00</nyitvatartas>
+        <elerhetoseg>
+            <telefonszam>06307412588</telefonszam>
+            <webshopcime>www.kecskemetinagyker.hu</webshopcime>
+        </elerhetoseg>
+        <italkernev>Kecskeméti Nagyker</italkernev>
+    </Italkereskedes>
+    <Italkereskedes ikod="3">
+        <nyitvatartas>08:00-16:00</nyitvatartas>
+        <elerhetoseg>
+            <telefonszam>06308842671</telefonszam>
+            <webshopcime>www.miskolcitaldiszkont.hu</webshopcime>
+        </elerhetoseg>
+        <italkernev>Miskolc Italdiszkont</italkernev>
+    </Italkereskedes>
+</Italkereskedesek>
+<Rendelesek>
+    <Rendeles rkod="1">
+        <tetelek>1 rekesz sör</tetelek>
+        <teljesar>4300</teljesar>
+        <datum>2021.11.12.</datum>
+    </Rendeles>
+    <Rendeles rkod="2">
+        <tetelek>5 rekesz sör</tetelek>
+        <teljesar>21600</teljesar>
+        <datum>2021.11.02.</datum>
+    </Rendeles>
+    <Rendeles rkod="3">
+        <tetelek>15 rekesz sör</tetelek>
+        <teljesar>64800</teljesar>
+        <datum>2021.11.07</datum>
+    </Rendeles>
+    <Rendeles rkod="4">
+        <tetelek>2 rekesz sör</tetelek>
+        <teljesar>8600</teljesar>
+        <datum>2021.11.01.</datum>
+    </Rendeles>
+</Rendelesek>
+<Vevok>
+    <Vevo vkod="1">
+        <telefonszam>06305741211</telefonszam>
+        <cim>
+            <varos>Csemő</varos>
+            <uhszam>Ősz utca 4.</uhszam>
+            <iranyitoszam>2713</iranyitoszam>
+        </cim>
+        <nev>Uri-Kovács Bence</nev>
+    </Vevo>
+    <Vevo vkod="2">
+        <telefonszam>03609874563</telefonszam>
+        <cim>
+            <varos>Miskolc</varos>
+            <uhszam>Tél utca 18.</uhszam>
+            <iranyitoszam>3515</iranyitoszam>
+        </cim>
+        <nev>Lakatos Brendon</nev>
+    </Vevo>
+    <Vevo vkod="3">
+        <telefonszam>03601236544</telefonszam>
+        <cim>
+            <varos>Kecskemét</varos>
+            <uhszam>Malom utca 1.</uhszam>
+            <iranyitoszam>6000</iranyitoszam>
+        </cim>
+        <nev>Kovács László</nev>
+    </Vevo>
+</Vevok>
+
+<Futar_Italkereskedes_kapcsolok>
+    <Futar_Italkereskedes Futarref="1" Italkereskedesref="1"></Futar_Italkereskedes>
+    <Futar_Italkereskedes Futarref="2" Italkereskedesref="2"></Futar_Italkereskedes>
+    <Futar_Italkereskedes Futarref="2" Italkereskedesref="3"></Futar_Italkereskedes>
+</Futar_Italkereskedes_kapcsolok>
+
+<Italkereskedes_Rendeles_kapcsolok>
+    <Italkereskedes_Rendeles Italkereskedesref="1" Rendelesref="1"></Italkereskedes_Rendeles>
+    <Italkereskedes_Rendeles Italkereskedesref="1" Rendelesref="3"></Italkereskedes_Rendeles>
+    <Italkereskedes_Rendeles Italkereskedesref="2" Rendelesref="2"></Italkereskedes_Rendeles>
+    <Italkereskedes_Rendeles Italkereskedesref="2" Rendelesref="4"></Italkereskedes_Rendeles>
+    <Italkereskedes_Rendeles Italkereskedesref="3" Rendelesref="5"></Italkereskedes_Rendeles>
+</Italkereskedes_Rendeles_kapcsolok>
+
+<Rendeles_Vevo_kapcsolok>
+    <Rendeles_Vevo Rendelesref="1" Vevoref="2"></Rendeles_Vevo>
+    <Rendeles_Vevo Rendelesref="2" Vevoref="4"></Rendeles_Vevo>
+    <Rendeles_Vevo Rendelesref="3" Vevoref="5"></Rendeles_Vevo>
+</Rendeles_Vevo_kapcsolok>
+</model>
