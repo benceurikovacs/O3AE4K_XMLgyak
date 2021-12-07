@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<?xml-stylesheet type='text/xsl' href='studentO3AE4K.xsl'?>
+
+<class>
+    <student id = "0">
+        <keresztnev>Bence</keresztnev>
+        <vezeteknev>Uri-Kovács</vezeteknev>
+        <becenev>Benő</becenev>
+        <kor>82</kor>
+    </student>
+    <student id = "1">
+        <keresztnev>László</keresztnev>
+        <vezeteknev>Sándor</vezeteknev>
+        <becenev>Sanyi</becenev>
+        <kor>12</kor>
+    </student>
+    <student id = "2">
+        <keresztnev>Sándor</keresztnev>
+        <vezeteknev>László</vezeteknev>
+        <becenev>Laci</becenev>
+        <kor>52</kor>
+    </student>
+</class>
